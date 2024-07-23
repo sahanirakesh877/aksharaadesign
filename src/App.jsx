@@ -9,10 +9,10 @@ import Blog from "./pages/Blog";
 import Team from "./pages/Team";
 import Home from "./pages/Home";
 import Kindegarten from "./pages/Kindergarten";
-import SideIcon from "./components/SideIcon";
+// import SideIcon from "./components/SideIcon";
 import Contact from "./pages/Contact";
 // import Gallery from "./components/Gallery";
-// import Gallery from "./pages/Gallery";
+//  import Gallery from "./pages/Gallery";
 import Elementryschool from "./pages/Elementryschool";
 import Highschool from "./pages/Highschool";
 import Middleschool from "./pages/Middleschool";
@@ -23,7 +23,7 @@ import ApplyOnline from "./pages/ApplyOnline";
 import ChairmanMsg from "./components/ChairmanMsg";
 import Principalmsg from "./components/Principalmsg";
 import LRPA from "./pages/LRPA";
-import Gallery from "./pages/Gallery";
+
 const App = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [popupVisible, setPopupVisible] = useState(true);
@@ -75,7 +75,7 @@ const App = () => {
         <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Photos />} />
-        <Route path="/photo" element={<Gallery />} />
+        {/* <Route path="/photo" element={<Gallery />} /> */}
       </Routes>
       {/* <SideIcon /> */}
       {/* <ChatApp /> */}

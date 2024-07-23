@@ -349,15 +349,7 @@
   background: linear-gradient(to left, #ff41cc, #01e39c);
 }
 /* ~~~~~~~~~~~~ blogs upper  and button design ~~~~~~~~~~~~ */
-.blog-banner {
-<<<<<<< HEAD
-  height: 23vh;
-  background: linear-gradient(to top, #ecfffb, var(--green4));
-=======
-  height: 25vh;
-  background: linear-gradient(to top, #cef0ff, #ffffff);
->>>>>>> rakeshcolor
-}
+
 .blog-child {
   background-color: #cef0ff;
 }

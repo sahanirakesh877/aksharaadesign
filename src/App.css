@@ -12,13 +12,13 @@ a {
   text-decoration: none;
 }
 :root {
-<<<<<<< HEAD
+/* <<<<<<< HEAD
   --green1: #40513b;
   --green2: #609966;
   --green3: #9dc08b;
   --green4: #edf1d6;
   --yellow: #e4e12c;
-=======
+======= */
   --green1:  #035073;
   --green2: #005C86;
   --red:#e20746;
@@ -27,7 +27,7 @@ a {
 }
 .bg-side{
   background-color: var(--red);
->>>>>>> rakeshcolor
+/* >>>>>>> rakeshcolor */
 }
 
 .hoverView {
@@ -108,11 +108,11 @@ a {
 
 /* parent voice design section start  */
 .demo {
-<<<<<<< HEAD
+/* <<<<<<< HEAD
   background: linear-gradient(to bottom, var(--green4), var(--green2));
-=======
+======= */
   background: linear-gradient(to top, #acddf2, #ffffff);
->>>>>>> rakeshcolor
+/* >>>>>>> rakeshcolor */
 }
 .testimonial {
   background: #fff;
@@ -274,7 +274,7 @@ a {
 
 /* footer design start */
 .footer {
-<<<<<<< HEAD
+/* <<<<<<< HEAD
   /* background-image: linear-gradient(
     rgba(1, 14, 1, 0.5), 
     rgba(2, 14, 11, 0.4)
@@ -285,8 +285,8 @@ a {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover; */
-=======
->>>>>>> rakeshcolor
+/* ======= */
+/* >>>>>>> rakeshcolor */
   background: linear-gradient(60deg, var(--green1), var(--green2));
 }
 .footer-logo-wrapper {
@@ -440,11 +440,9 @@ a {
   align-items: center;
   appearance: none;
   background-color: var(--red);
-<<<<<<< HEAD
-  background-image: linear-gradient(1deg, var(--green2), var(--green3) 99%);
-=======
+
   background-image: linear-gradient(1deg, var(--green1), var(--green3) 99%);
->>>>>>> rakeshcolor
+
   background-size: calc(100% + 20px) calc(100% + 20px);
   border-radius: 100px;
   border-width: 0;
@@ -484,35 +482,6 @@ a {
 }
 
 /* mission and vision */
-
-<<<<<<< HEAD
-.about-icon2 {
-  color: var(--red);
-}
-
-.about-icon3 {
-  color: var(--sec);
-}
-
-.mission-p {
-  text-align: justify;
-  padding: 0 15px;
-  font-size: 0.9rem;
-}
-
-.border-end {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  height: auto;
-
-  border-color: rgb(255, 255, 255) !important;
-}
-.mission-color {
-  background: var(--green4);
-}
-=======
->>>>>>> rakeshcolor
 
 .b-col {
   border-right: 2px solid rgb(4, 4, 4);
