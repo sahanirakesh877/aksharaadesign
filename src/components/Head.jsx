@@ -182,7 +182,7 @@ const Head = () => {
                       aria-labelledby="navbarDropdown"
                     >
                       <li>
-                        <Link className="dropdown-item" to="/gallery">
+                        <Link className="dropdown-item" to="/photos">
                           <i className="fa-solid fa-photo-video me-1"></i>
                           Gallery
                         </Link>

@@ -4,7 +4,7 @@ import "../css/pic.css";
 const Pic = () => {
   return (
     <>
-      <div className="container bg-success">
+      <div className="container ">
         <div className="row">
           <h2 className="text-center w-100 border-bottom-title addcolor">
             Explore <span className="head-color">Gallery</span>

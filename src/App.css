@@ -1,33 +1,24 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* font-family: "Poppins", sans-serif; */
   font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
 }
 :root {
-/* <<<<<<< HEAD
-  --green1: #40513b;
-  --green2: #609966;
-  --green3: #9dc08b;
-  --green4: #edf1d6;
-  --yellow: #e4e12c;
-======= */
-  --green1:  #035073;
-  --green2: #005C86;
-  --red:#e20746;
+  --green1: #035073;
+  --green2: #005c86;
+  --red: #e20746;
   --green4: rgb(137, 202, 137);
-  --yellow: #ED1651;
+  --yellow: #ed1651;
 }
-.bg-side{
+.bg-side {
   background-color: var(--red);
-/* >>>>>>> rakeshcolor */
+ 
 }
 
 .hoverView {
@@ -42,7 +33,11 @@ a {
   justify-content: center;
   align-items: center;
   transform: translateX(-50%) translateY(-50%);
-  transition: top 0.1s ease, left 0.1s ease, height 0.3s ease, width 0.3s ease,
+  transition:
+    top 0.1s ease,
+    left 0.1s ease,
+    height 0.3s ease,
+    width 0.3s ease,
     opacity 0.3s ease;
   pointer-events: none;
   cursor: none;
@@ -61,7 +56,6 @@ a {
 
 .addcolor {
   color: var(--green2);
-  
 }
 .head-color {
   color: var(--red);
@@ -108,11 +102,7 @@ a {
 
 /* parent voice design section start  */
 .demo {
-/* <<<<<<< HEAD
-  background: linear-gradient(to bottom, var(--green4), var(--green2));
-======= */
   background: linear-gradient(to top, #acddf2, #ffffff);
-/* >>>>>>> rakeshcolor */
 }
 .testimonial {
   background: #fff;
@@ -236,7 +226,9 @@ a {
   position: absolute;
   width: 100%;
   height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
   object-fit: contain;
   transition: transform 0.3s linear;
 }
@@ -271,22 +263,8 @@ a {
 }
 /*main  photo   section end*/
 
-
 /* footer design start */
 .footer {
-/* <<<<<<< HEAD
-  /* background-image: linear-gradient(
-    rgba(1, 14, 1, 0.5), 
-    rgba(2, 14, 11, 0.4)
-  ),
-  url('/gallery/footerbg.jpg');
-  filter: blur();
-  
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  background-size: cover; */
-/* ======= */
-/* >>>>>>> rakeshcolor */
   background: linear-gradient(60deg, var(--green1), var(--green2));
 }
 .footer-logo-wrapper {
@@ -311,11 +289,13 @@ a {
 }
 .animated-hover {
   display: inline-block;
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 .animated-hover:hover {
   transform: translateX(5px);
-  color: #bb87ae ;
+  color: #bb87ae;
   letter-spacing: 0.6px;
   transition: all 0.3s linear;
 }
@@ -343,52 +323,6 @@ a {
 /* footer design end */
 
 /* abouts us page */
-
-/* 
-.mission-vision-section {
-  padding: 40px 0;
-}
-
-
-
-.mission-vision-content {
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: #fff;
-}
-
-.mission-vision-content1 {
-  background-color: var(--sec);
-  
-  clip-path: polygon(0% 0%, 60% 0, 100% 50%, 60% 100%, 0% 100%);
-}
-
-.mission-vision-content2 {
-  background-color: var(--third);
-  clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%, 0% 50%);
-}
-
-.mission-vision-content h5 {
-  color: #28a745;
-  
-}
-
-.mission-vision-content1 p {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  margin-right: 80px;
-  text-align: justify;
-  border: 1px solid red; 
-}
-
-.mission-vision-content2 p {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  margin-left: 80px;
-  text-align: justify;
-  border: 1px solid red; 
-} */
 .mission-vision-section {
   padding: 40px 0;
 }
@@ -460,7 +394,9 @@ a {
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: background-color 0.2s, background-position 0.2s;
+  transition:
+    background-color 0.2s,
+    background-position 0.2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

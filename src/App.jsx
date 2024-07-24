@@ -11,8 +11,7 @@ import Home from "./pages/Home";
 import Kindegarten from "./pages/Kindergarten";
 // import SideIcon from "./components/SideIcon";
 import Contact from "./pages/Contact";
-// import Gallery from "./components/Gallery";
-//  import Gallery from "./pages/Gallery";
+import Gallery from "./pages/Gallery";
 import Elementryschool from "./pages/Elementryschool";
 import Highschool from "./pages/Highschool";
 import Middleschool from "./pages/Middleschool";
@@ -57,25 +56,21 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-
         <Route path="/academics/kindergarten" element={<Kindegarten />} />
         <Route path="/academics/elementary" element={<Elementryschool />} />
         <Route path="/academics/middle" element={<Middleschool />} />
         <Route path="/academics/high" element={<Highschool />} />
-
         <Route path="/admission/policy" element={<Admissionpolicy />} />
         <Route path="/admission/procedure" element={<AdmissionProcedure />} />
         <Route path="/apply-online" element={<ApplyOnline />} />
-
         <Route path="/about/chairman" element={<ChairmanMsg />} />
         <Route path="/about/principal" element={<Principalmsg />} />
         <Route path="/about/team" element={<Team />} />
         <Route path="/about/lrpa" element={<LRPA />} />
-
         <Route path="/news" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Photos />} />
-        {/* <Route path="/photo" element={<Gallery />} /> */}
+        <Route path="/photos" element={<Photos />} />
+        <Route path="/photo" element={<Gallery />} />
       </Routes>
       {/* <SideIcon /> */}
       {/* <ChatApp /> */}

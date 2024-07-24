@@ -7,14 +7,13 @@ import Brand from "../components/Brand";
 import Testimonial from "../components/Testimonial";
 import Banner from "../components/Banner";
 import Contact from "./Contact";
-import Gallery from "../components/Gallery";
 import Counter from "../components/Counter";
 // import SisterOrg from "../components/SisterOrg";
 import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
 import Mission from "./../components/Mission";
-import Infograph from "../components/Infograph";
+// import Infograph from "../components/Infograph";
 import Infochek from "../components/Infochek";
 import Pic from "../components/Pic";
 
@@ -27,19 +26,21 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
-      <Pic/>
-      {/* <Infochek/> */}
+
       <Mission />
-      {/* <Learning /> */}
+      <Learning />
       {/* <Infograph /> */}
+
       <About />
       <Counter />
+      <Brand />
+      <Infochek />
       <Blog />
-      <CreativeWeek />
+
       <HomeBlog />
       <Testimonial />
-      {/* <Gallery /> */}
-      <Brand />
+      <Pic />
+
       {/* <SisterOrg /> */}
       <Contact />
     </>

@@ -257,8 +257,7 @@ const Blog = () => {
           content="Blog, Blogus, case, blog company, team, mission, vision, services, review, values, Western Australia Care Pvt. Ltd., NDIS, disabilities, community, respect, equality"
         />
       </Helmet>
-
-      <div className="blog-banner">
+      <div className="demo">
         <div className="container">
           <h2 className="text-center pt-5   fs-2  border-bottom-title w-100  head-color">
             {" "}
@@ -292,82 +291,82 @@ const Blog = () => {
             </h6>
           </div>
         </div>
-      </div>
 
-      <div className="blog-child ">
-        {filter === "Featured News" && (
-          <div className="container py-5">
-            <div className="row">
-              <AliceCarousel
-                mouseTracking
-                items={items}
-                infinite={true}
-                autoPlay={true}
-                animationDuration={1500}
-                responsive={responsive}
-                disableButtonsControls
-                disableDotsControls
-                controlsStrategy="responsive"
-              />
+        <div className="">
+          {filter === "Featured News" && (
+            <div className="container py-5">
+              <div className="row">
+                <AliceCarousel
+                  mouseTracking
+                  items={items}
+                  infinite={true}
+                  autoPlay={true}
+                  animationDuration={1500}
+                  responsive={responsive}
+                  disableButtonsControls
+                  disableDotsControls
+                  controlsStrategy="responsive"
+                />
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        {filter === "Upcoming Events" && (
-          <div className="container blog-container py-4">
-            <div className="row py-4">
-              <h4 className="text-center my-4  border-bottom-title">
-                School Events Schedule
-              </h4>
-              {filteredBlogData.map((item) => (
-                <div className="col-md-6 mb-4" key={item.id}>
-                  <div className="d-flex justify-content-center align-items-center p-3 border">
-                    <div className="calenderBox d-flex justify-content-center align-items-center flex-column">
-                      <span className="fs-1">{item.date.slice(9, 11)}</span>
-                      <span className="calen-date">
-                        {item.date.slice(5, 8)}
-                      </span>
-                    </div>
-                    <div className="calender-text d-flex flex-column justify-content-center align-items-start ms-3 flex-fill">
-                      <h6>{item.title}</h6>
-                      <p className="calen-p">{item.des}</p>
-                      <p className="calen-p">{item.date}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {filter === "Calendar" && (
-          <div className="container py-4">
-            <div className="row py-4">
-              <h4 className="text-center my-5  border-bottom-title">
-                Calender Schedule
-              </h4>
-
-              {scheduleData.map((item, index) => (
-                <div key={index} className="col-md-3 mb-2">
-                  <div className="p-3 border">
-                    <h6 className="text-success">{item.date}</h6>
-                    <div className="d-flex flex-column align-items-start gap-2">
-                      {item.event.map((event, eventIndex) => (
-                        <div
-                          key={eventIndex}
-                          className="d-flex align-items-center"
-                        >
-                          <i className="fa-regular fa-calendar text-danger me-2"></i>
-                          <p className="card-text mb-0">{event}</p>
-                        </div>
-                      ))}
+          {filter === "Upcoming Events" && (
+            <div className="container blog-container py-4">
+              <div className="row py-4">
+                <h4 className="text-center my-4  border-bottom-title">
+                  School Events Schedule
+                </h4>
+                {filteredBlogData.map((item) => (
+                  <div className="col-md-6 mb-4" key={item.id}>
+                    <div className="d-flex justify-content-center align-items-center p-3 border">
+                      <div className="calenderBox d-flex justify-content-center align-items-center flex-column">
+                        <span className="fs-1">{item.date.slice(9, 11)}</span>
+                        <span className="calen-date">
+                          {item.date.slice(5, 8)}
+                        </span>
+                      </div>
+                      <div className="calender-text d-flex flex-column justify-content-center align-items-start ms-3 flex-fill">
+                        <h6>{item.title}</h6>
+                        <p className="calen-p">{item.des}</p>
+                        <p className="calen-p">{item.date}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
+
+          {filter === "Calendar" && (
+            <div className="container py-4">
+              <div className="row py-4">
+                <h4 className="text-center my-5  border-bottom-title">
+                  Calender Schedule
+                </h4>
+
+                {scheduleData.map((item, index) => (
+                  <div key={index} className="col-md-3 mb-2">
+                    <div className="p-3 border">
+                      <h6 className="text-success">{item.date}</h6>
+                      <div className="d-flex flex-column align-items-start gap-2">
+                        {item.event.map((event, eventIndex) => (
+                          <div
+                            key={eventIndex}
+                            className="d-flex align-items-center"
+                          >
+                            <i className="fa-regular fa-calendar text-danger me-2"></i>
+                            <p className="card-text mb-0">{event}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );

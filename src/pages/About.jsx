@@ -3,16 +3,16 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="mission-color bg-light py-5">
+      <div className="mission-color  py-5">
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-12 text-center">
-              <h2 className="w-100 border-bottom-title head-color my-5">
+              <h2 className="w-100 border-bottom-title head-color ">
                 <span className="addcolor ">Our Philosophy</span> & Approach
               </h2>
             </div>
           </div>
-          <div className="row d-flex align-items-center">
+          <div className="row d-flex align-items-center py-5">
             <div className="col-lg-6 col-md-12 mb-4">
               <p className="mission-p">
                 Aksharaa School adopts a student-centered, constructivist

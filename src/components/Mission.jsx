@@ -28,12 +28,12 @@ const missionData = [
 const Mission = () => {
   return (
     <div className="mission-color">
-      <div className="container ">
-        <div className="row d-flex  justify-content-between py-4">
+      <div className="container py-4">
+        <div className="row d-flex  justify-content-between">
           {missionData.map((item, index) => (
             <div
               key={index}
-              className="col-lg-4 col-md-6 col-sm-12  d-flex  my-3"
+              className="col-lg-4 col-md-6 col-sm-12  d-flex mb-5"
              >
               <div className="text-center d-flex flex-column justify-content-start corner-border shadow mx-4  w-100 h-100  rounded-5  ">
                 <i
