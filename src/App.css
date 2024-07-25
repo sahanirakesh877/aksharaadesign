@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,22 +12,22 @@ a {
   text-decoration: none;
 }
 :root {
-/* <<<<<<< HEAD
+  /* <<<<<<< HEAD
   --green1: #40513b;
   --green2: #609966;
   --green3: #9dc08b;
   --green4: #edf1d6;
   --yellow: #e4e12c;
 ======= */
-  --green1:  #035073;
-  --green2: #005C86;
-  --red:#e20746;
+  --green1: #035073;
+  --green2: #005c86;
+  --red: #e20746;
   --green4: rgb(137, 202, 137);
-  --yellow: #ED1651;
+  --yellow: #ed1651;
 }
-.bg-side{
+.bg-side {
   background-color: var(--red);
-/* >>>>>>> rakeshcolor */
+  /* >>>>>>> rakeshcolor */
 }
 
 .hoverView {
@@ -61,7 +61,6 @@ a {
 
 .addcolor {
   color: var(--green2);
-  
 }
 .head-color {
   color: var(--red);
@@ -108,11 +107,11 @@ a {
 
 /* parent voice design section start  */
 .demo {
-/* <<<<<<< HEAD
+  /* <<<<<<< HEAD
   background: linear-gradient(to bottom, var(--green4), var(--green2));
 ======= */
   background: linear-gradient(to top, #acddf2, #ffffff);
-/* >>>>>>> rakeshcolor */
+  /* >>>>>>> rakeshcolor */
 }
 .testimonial {
   background: #fff;
@@ -271,10 +270,9 @@ a {
 }
 /*main  photo   section end*/
 
-
 /* footer design start */
 .footer {
-/* <<<<<<< HEAD
+  /* <<<<<<< HEAD
   /* background-image: linear-gradient(
     rgba(1, 14, 1, 0.5), 
     rgba(2, 14, 11, 0.4)
@@ -285,8 +283,8 @@ a {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover; */
-/* ======= */
-/* >>>>>>> rakeshcolor */
+  /* ======= */
+  /* >>>>>>> rakeshcolor */
   background: linear-gradient(60deg, var(--green1), var(--green2));
 }
 .footer-logo-wrapper {
@@ -315,7 +313,7 @@ a {
 }
 .animated-hover:hover {
   transform: translateX(5px);
-  color: #bb87ae ;
+  color: #bb87ae;
   letter-spacing: 0.6px;
   transition: all 0.3s linear;
 }
@@ -493,4 +491,8 @@ a {
 
 .lrpa-p-text {
   text-align: justify;
+}
+
+.pointer {
+  cursor: wait;
 }
