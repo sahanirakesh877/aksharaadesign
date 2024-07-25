@@ -87,7 +87,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="button-21 w-100 my-3">
+                <button type="submit" className="head-btn  rounded-pill animated-button my-3 w-25 py-1">
                   Submit
                 </button>
               </form>

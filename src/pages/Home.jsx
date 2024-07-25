@@ -8,12 +8,11 @@ import Testimonial from "../components/Testimonial";
 import Banner from "../components/Banner";
 import Contact from "./Contact";
 import Counter from "../components/Counter";
-// import SisterOrg from "../components/SisterOrg";
+import SisterOrg from "../components/SisterOrg";
 import About from "./About";
 import CreativeWeek from "../components/CreativeWeek";
 import HomeBlog from "../components/HomeBlog";
 import Mission from "./../components/Mission";
-// import Infograph from "../components/Infograph";
 import Infochek from "../components/Infochek";
 import Pic from "../components/Pic";
 
@@ -26,10 +25,8 @@ const Home = () => {
     <>
       <Helmet titleTemplate="Akashara" />
       <Banner />
-
       <Mission />
       <Learning />
-      {/* <Infograph /> */}
       <About />
       <Counter />
       <Brand />
@@ -37,11 +34,10 @@ const Home = () => {
       <Infochek />
       <Testimonial />
       <HomeBlog />
-      <CreativeWeek/>
+      <CreativeWeek />
       <Pic />
-    
-      {/* <SisterOrg /> */}
       <Contact />
+      <SisterOrg />
     </>
   );
 };

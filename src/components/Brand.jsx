@@ -27,7 +27,7 @@ const items = brandImg.map((img, index) => (
 
 const Brand = () => {
   return (
-    <div className="brand py-5 border">
+    <div className="brand py-5 ">
       <div className="container py-5">
         <h2 className="text-center head-color border-bottom-title w-100 mb-5">
           <span className="addcolor">Our Educational</span> Partners

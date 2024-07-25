@@ -343,7 +343,7 @@ const Footer = () => {
                               </div>
                               <div className="col-12">
                                 <div className="mb-sm-4">
-                                  <button class="button-21 w-100" role="button">
+                                  <button class="head-btn  rounded-pill animated-button w-100 py-2" role="button">
                                     {" "}
                                     Subscribe
                                   </button>
@@ -356,23 +356,32 @@ const Footer = () => {
                     </div>
 
                     {/* last footer  */}
-                    <div className="row  pt-4  border-top  mt-2  border-light-subtle">
-                      <div className="footer-copyright-wrapper mt-6 text-light">
-                        © 2024. All Rights Reserved.
+                    <div className="row  pt-4  border-top  mt-2  border-light-subtle d-flex  align-items-center justify-content-between   ">
+
+                    
+                      <div>
+                        <div className="footer-copyright-wrapper mt-6 text-light">
+                          © 2024. All Rights Reserved.
+                        </div>
+                        <div className="credits text-light mt-2 fs-7">
+                          Built by{" "}
+                          <a
+                            href="https://technavata.com/"
+                            className="footer-tag text-decoration-none"
+                          >
+                            Navatatech{" "}
+                          </a>{" "}
+                          with{" "}
+                          <span className="text-danger  ">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                          </span>
+                        </div>
                       </div>
-                      <div className="credits text-light mt-2 fs-7">
-                        Built by{" "}
-                        <a
-                          href="https://technavata.com/"
-                          className="footer-tag text-decoration-none"
-                        >
-                          Navatatech{" "}
-                        </a>{" "}
-                        with{" "}
-                        <span className="text-danger  ">
-                          <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                      </div>
+
+                     
+                  
+                     
+
                     </div>
                   </div>
                 </div>
