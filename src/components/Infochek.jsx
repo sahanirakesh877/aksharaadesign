@@ -4,26 +4,18 @@ import "../css/infocheck.css";
 const Infochek = () => {
   return (
     <>
-      <div className="bg-light">
-        <div className="container text-center py-5  ">
-          <div className="infographss">
-            <div className="circle-center ">
-              <h2 className="text-light">Our Values</h2>
-            </div>
-            <div className="boxes">
-              <div className="box box1">Empathy</div>
-              <div className="box box2">Critical Thinking</div>
-              <div className="box box3">Life Long Learners</div>
-              <div className="box box4">Responsibility</div>
-              <div className="box box5">Integrity</div>
-              <div className="box box6">Reliability</div>
-              <div className="box box7">Collaboration</div>
-              <div className="box box8">Respectability</div>
-              <div className="box box9">Effective Communication</div>
-              <div className="box box10">Positivity</div>
-            </div>
+      <div className="container mx-auto py-5">
+      <div className="text-center mb-2">
+            <h2 className="text-center border-bottom-title w-100 head-color">
+              <span className="addcolor">Our Core</span> Values
+            </h2>
+            <p className="px-md-5">
+              Aksharaa School inculates value based education with academic excellence through collaboration with parents and other stake holders to instill resilience, Leadership skills and emotional intelligence in each learner.
+            </p>
           </div>
-        </div>
+        <figure className="d-flex justify-content-center align-content-center ">
+          <img src="/info.png" alt="" className="img-fluid w-75"/>
+        </figure>
       </div>
     </>
   );

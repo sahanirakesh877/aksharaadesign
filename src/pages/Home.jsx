@@ -30,17 +30,16 @@ const Home = () => {
       <Mission />
       <Learning />
       {/* <Infograph /> */}
-
       <About />
       <Counter />
       <Brand />
-      <Infochek />
       <Blog />
-
-      <HomeBlog />
+      <Infochek />
       <Testimonial />
+      <HomeBlog />
+      <CreativeWeek/>
       <Pic />
-
+    
       {/* <SisterOrg /> */}
       <Contact />
     </>

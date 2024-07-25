@@ -15,14 +15,14 @@ const counter = [
 
   {
     id: 3,
-    name: "staffs",
+    name: "Graduates",
     icon: "fa fa-trophy",
-    counterNo: 100,
+    counterNo: 400,
   },
 
   {
     id: 4,
-    name: "Faculty",
+    name: "History",
     icon: "fa fa-school",
     counterNo: 19,
   },

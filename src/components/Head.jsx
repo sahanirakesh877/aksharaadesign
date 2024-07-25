@@ -6,8 +6,8 @@ import EnquiryModel from "./EnquiryModel";
 const Head = () => {
   return (
     <>
-      <header>
-        <div className="container mx-auto">
+      <header className="position-sticky top-0   ">
+        <div className="container mx-auto ">
           <div className="row d-flex align-items-center  ">
             <nav className="navbar navbar-expand-lg navbar-light ">
               {/* <div className=""> */}

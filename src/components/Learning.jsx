@@ -182,7 +182,7 @@ const Learning = () => {
                     className="img-custom"
                   />
                   <p className="seniors border px-3 rounded-2 py-1 border me-4">
-                    Seniors
+                    High School
                   </p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const Learning = () => {
                     className="img-custom kinder_img2"
                   />
                   <p className="seniors px-3 rounded-2 py-1 border me-4">
-                    Middle
+                    Middle School
                   </p>
                 </div>
               </div>
