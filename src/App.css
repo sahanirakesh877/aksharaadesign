@@ -496,3 +496,10 @@ a {
 .pointer {
   cursor: wait;
 }
+
+.messageHeight {
+  height: 40px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}

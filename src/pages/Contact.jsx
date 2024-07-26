@@ -14,6 +14,7 @@ const Contact = () => {
 
   async function submitContactForm(e) {
     e.preventDefault();
+    setRes(null);
     setLoading(true); // Set loading to true before making the request
     console.log(`${import.meta.env.VITE_SERVERAPI}/api/v1/notice/contact`);
     try {
@@ -129,14 +130,15 @@ const Contact = () => {
                 value={message}
               ></textarea>
             </div>
-
-            {res ? (
-              res.success ? (
-                <p className="text-success">{res.message}</p>
-              ) : (
-                <p className="text-danger">{res.message}</p>
-              )
-            ) : null}
+            <div className="messageHeight">
+              {res ? (
+                res.success ? (
+                  <p className="text-success">{res.message}</p>
+                ) : (
+                  <p className="text-danger">*** {res.message}</p>
+                )
+              ) : null}
+            </div>
 
             <button
               type="submit"
